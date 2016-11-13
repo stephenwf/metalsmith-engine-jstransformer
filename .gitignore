@@ -1,0 +1,9 @@
+# Node
+node_modules
+npm-debug.log
+
+# Test build results
+test/fixtures/*/build
+
+# Babel build results, commit these for now
+#dist
