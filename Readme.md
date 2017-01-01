@@ -19,13 +19,13 @@ enable the handlebars transformation:
 $ npm install jstransformer-handlebars
 ```
 
-Since we're using jstransformer, and jstransformer is the default engine for metalsmith-in-place, we
-don't have to install `metalsmith-engine-jstransformer` separately. We also don't have to specify it
-in the configuration below. The only thing we have to specify is that we want to use
-`metalsmith-in-place`. `metalsmith-engine-jstransformer` will then detect which jstransformers you 
-have installed, and apply them when it encounters files with a matching extension. See
+Since jstransformer is the default engine for `metalsmith-in-place`, we don't have to install this
+engine separately or specify it in the configuration.
+
+So we use `metalsmith-in-place` and `metalsmith-engine-jstransformer` will detect which
+jstransformers you have installed and apply them. See
 [here](https://github.com/jstransformers/inputformat-to-jstransformer/blob/master/dictionary.json)
-for a list of extensions and the jstransformers they belong to.
+to see which extensions match to which jstransformers.
 
 ```javascript
 var metalsmith = require('metalsmith')
@@ -57,5 +57,10 @@ This is a simple example, but of course you can expand on this and use any jstra
 want to use. See [metalsmith-in-place](https://github.com/jstransformers/jstransformer-handlebars)
 for instructions on how to pass options to jstransformer.
 
+## License
+
+MIT
+
 [slack-url]: http://metalsmith-slack.herokuapp.com/
 [stackoverflow-url]: http://stackoverflow.com/questions/tagged/metalsmith
+
