@@ -52,8 +52,8 @@ Results in `build/index.html`:
 ```
 
 This is a simple example, but of course you can expand on this and use any jstransformers that you
-want to use. See [metalsmith-in-place](in-place-url) for instructions on how to pass options to
-jstransformer and see [here](dictionary-url) to see which extensions match to which jstransformers.
+want to use. See [metalsmith-in-place][in-place-url] for instructions on how to pass options to
+jstransformer and see [here][dictionary-url] to see which extensions match to which jstransformers.
 
 ## License
 
