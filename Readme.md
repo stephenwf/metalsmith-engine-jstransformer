@@ -1,5 +1,9 @@
 # metalsmith-engine-jstransformer
 
+[![npm version][version-badge]][version-url]
+[![downloads][downloads-badge]][downloads-url]
+[![slack chat][slack-badge]][slack-url]
+
 > A jstransformer engine for metalsmith-in-place and metalsmith-layouts
 
 This engine allows you to render templates with [jstransformer][jstransformer-url]. Files will be
@@ -57,7 +61,14 @@ MIT
 
 [in-place-url]: https://github.com/superwolff/metalsmith-in-place
 [dictionary-url]: https://github.com/jstransformers/inputformat-to-jstransformer/blob/master/dictionary.json
-[slack-url]: http://metalsmith-slack.herokuapp.com/
 [stackoverflow-url]: http://stackoverflow.com/questions/tagged/metalsmith
 [jstransformer-url]: https://github.com/jstransformers/jstransformer
 [jstransformer-handlebars-url]: https://github.com/jstransformers/jstransformer-handlebars
+
+[downloads-badge]: https://img.shields.io/npm/dm/metalsmith-engine-jstransformer.svg
+[downloads-url]: https://www.npmjs.com/package/metalsmith-engine-jstransformer
+[slack-badge]: https://img.shields.io/badge/Slack-Join%20Chat%20→-blue.svg
+[slack-url]: http://metalsmith-slack.herokuapp.com/
+[version-badge]: https://img.shields.io/npm/v/metalsmith-engine-jstransformer.svg
+[version-url]: https://www.npmjs.com/package/metalsmith-engine-jstransformer
+[stackoverflow-url]: http://stackoverflow.com/questions/tagged/metalsmith
