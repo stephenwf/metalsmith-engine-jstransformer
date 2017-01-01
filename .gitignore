@@ -1,9 +1,10 @@
 # Node
 node_modules
 npm-debug.log
+yarn-error.log
 
 # Test build results
 test/fixtures/*/build
 
 # Babel build results, commit these for now
-#dist
+dist
