@@ -30,6 +30,8 @@
   },
   "devDependencies": {
     "assert-dir-equal": "^1.0.1",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
     "coveralls": "^2.13.1",
     "eslint": "^4.3.0",
     "eslint-config-airbnb-base": "^11.3.1",
@@ -45,9 +47,6 @@
     "prettier": "^1.5.3"
   },
   "dependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.6.0",
-    "extend": "^3.0.0",
     "inputformat-to-jstransformer": "^1.1.8",
     "is-utf8": "^0.2.1",
     "jstransformer": "^1.0.0"
