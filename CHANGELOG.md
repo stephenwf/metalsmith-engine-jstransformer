@@ -1,3 +1,8 @@
+Upcoming
+- Breaking: no longer setting options.filename automatically
+- Fix: process first extension correctly when there are multiple transforms
+- Fix: check if file has extension before processing
+
 0.1.2 - August 2, 2017
 ----------------------
 - Ignore binary files
