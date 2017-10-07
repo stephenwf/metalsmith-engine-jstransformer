@@ -6,13 +6,6 @@
   "name": "metalsmith-engine-jstransformer",
   "repository": "git://github.com/superwolff/metalsmith-engine-jstransformer.git",
   "version": "1.0.0-alpha.1",
-  "jest": {
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/dist/",
-      "/test/"
-    ]
-  },
   "greenkeeper": {
     "ignore": [
       "eslint",
@@ -20,7 +13,7 @@
     ]
   },
   "scripts": {
-    "prepublishOnly": "babel lib -d dist",
+    "prepublishOnly": "babel lib -d dist --ignore '**/*.test.js'",
     "precommit": "lint-staged",
     "test": "jest",
     "test:coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
