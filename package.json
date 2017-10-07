@@ -20,7 +20,7 @@
     ]
   },
   "scripts": {
-    "prepublish": "babel lib -d dist",
+    "prepublishOnly": "babel lib -d dist",
     "precommit": "lint-staged",
     "test": "jest",
     "test:coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
