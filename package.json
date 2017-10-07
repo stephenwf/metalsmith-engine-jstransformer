@@ -12,6 +12,11 @@
       "eslint-plugin-import"
     ]
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "lib/*.js"
+    ]
+  },
   "scripts": {
     "prepublishOnly": "babel lib -d dist --ignore '**/*.test.js'",
     "precommit": "lint-staged",
