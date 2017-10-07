@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "name": "metalsmith-engine-jstransformer",
   "repository": "git://github.com/superwolff/metalsmith-engine-jstransformer.git",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "greenkeeper": {
     "ignore": [
       "eslint",
