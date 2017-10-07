@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "name": "metalsmith-engine-jstransformer",
   "repository": "git://github.com/superwolff/metalsmith-engine-jstransformer.git",
-  "version": "0.1.2",
+  "version": "1.0.0-alpha.1",
   "jest": {
     "testPathIgnorePatterns": [
       "/node_modules/",
