@@ -38,7 +38,7 @@
     "jest": "^20.0.4",
     "jstransformer-handlebars": "^1.0.0",
     "jstransformer-markdown": "^1.1.1",
-    "lint-staged": "^4.0.2",
+    "lint-staged": "^5.0.0",
     "lintspaces-cli": "^0.6.0",
     "metalsmith": "^2.3.0",
     "metalsmith-in-place": "^3.0.0",
